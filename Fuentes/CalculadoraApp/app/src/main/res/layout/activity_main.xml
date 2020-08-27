@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Loreto!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/primary_light"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="@string/texto1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+    <TextView
+        android:text="@string/texto2"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@color/primary_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+    <TextView
+        android:text="@string/texto3"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/primary_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+    <Button
+        android:text="@string/btn_saludar"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:onClick="saludar"
+        android:layout_height="match_parent"></Button>
 
-</androidx.constraintlayout.widget.ConstraintLayout>World
+
+</LinearLayout>

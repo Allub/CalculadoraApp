@@ -4,4 +4,9 @@
     <string name="texto2">Hola Lore</string>
     <string name="texto3">XD</string>
     <string name="btn_saludar">Saludar</string>
+    <string name="sumarTxt">+</string>
+    <string name="n2Label">N2</string>
+    <string name="n1Label">N1</string>
+    <string name="restarTxt">-</string>
+    <string name="multiTxt">*</string>
 </resources>
